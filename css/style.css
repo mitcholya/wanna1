@@ -1,0 +1,742 @@
+/*============    ШРИФТЫ    ===========*/
+
+@font-face {
+    font-family: 'ProximaNovaBlack';
+    src: url('fonts/ProximaNovaBlack.eot');
+    src: url('fonts/ProximaNovaBlack.eot') format('embedded-opentype'),
+         url('fonts/ProximaNovaBlack.woff2') format('woff2'),
+         url('fonts/ProximaNovaBlack.woff') format('woff'),
+         url('fonts/ProximaNovaBlack.ttf') format('truetype'),
+         url('fonts/ProximaNovaBlack.svg#ProximaNovaBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('fonts/ProximaNovaBold.eot');
+    src: url('fonts/ProximaNovaBold.eot') format('embedded-opentype'),
+         url('fonts/ProximaNovaBold.woff2') format('woff2'),
+         url('fonts/ProximaNovaBold.woff') format('woff'),
+         url('fonts/ProximaNovaBold.ttf') format('truetype'),
+         url('fonts/ProximaNovaBold.svg#ProximaNovaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('fonts/ProximaNovaRegular.eot');
+    src: url('fonts/ProximaNovaRegular.eot') format('embedded-opentype'),
+         url('fonts/ProximaNovaRegular.woff2') format('woff2'),
+         url('fonts/ProximaNovaRegular.woff') format('woff'),
+         url('fonts/ProximaNovaRegular.ttf') format('truetype'),
+         url('fonts/ProximaNovaRegular.svg#ProximaNovaRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'ProximaNovaSemibold';
+    src: url('fonts/ProximaNovaSemibold.eot');
+    src: url('fonts/ProximaNovaSemibold.eot') format('embedded-opentype'),
+         url('fonts/ProximaNovaSemibold.woff2') format('woff2'),
+         url('fonts/ProximaNovaSemibold.woff') format('woff'),
+         url('fonts/ProximaNovaSemibold.ttf') format('truetype'),
+         url('fonts/ProximaNovaSemibold.svg#ProximaNovaSemibold') format('svg');
+}
+
+
+/*============= TOP SECTION =================*/
+
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+header img {
+    margin-bottom: 4px;
+}
+
+header .button {
+
+}
+
+header .odnoklassniki {
+    background: #f68634;
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;
+    color: white;
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 4px;
+}
+
+header .facebook {
+    background: #3b5998;
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;
+    color: white;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+header .vk {
+    background: #4d76a1;
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;
+    color: white;
+    display: inline-block;
+}
+
+
+
+header .fa-odnoklassniki{
+    margin-top: 8px;
+}
+
+header .fa-facebook{
+    margin-top: 8px;
+}
+
+header .fa-vk{
+    margin-top: 8px;
+}
+
+header  .fa-phone{
+    margin-top: 4px;
+    padding-right: 10px;
+    color: #577fbc;
+    top: 20px;
+}
+
+header  .fa-map-marker{
+    margin-top: 38px;
+    color: #577fbc;
+}
+
+header .phone_number {
+    /* margin-top: 36px; */
+    font-family: 'ProximaNovaBold';
+    font-size: 24px;
+    color: #000000;
+    margin-top: 27px;
+}
+
+header .phone_number a {
+    color: black;
+    text-decoration: none;
+    /* line-height: 0px; */
+    /* padding: 0px; */
+    position: relative;
+    display: inline-block;
+    padding-left: 42px;
+}
+
+header .phone_number a:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 34px;
+    height: 34px;
+    margin-top: -8px;
+    background: url(../img/phone.png);
+}
+
+header .phone_padding {
+    padding-top: 30px;
+}
+
+header .call {
+    margin-bottom: 10px;
+    /* line-height: 0px; */
+    font-family: 'ProximaNovaRegular';
+    color: #0000FF;
+    font-size: 13px;
+    text-decoration: underline;
+    padding-left: 4px;
+    padding-top: 16px;
+}
+
+/* header .call a{
+
+
+}  */
+
+header #dropdownMenuLink{
+    font-family: 'ProximaNovaRegular';
+    color: #0000FF;
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 30px;
+    position: relative;
+    display: inline-block;
+    /* padding-bottom: 40px; */
+}
+
+/* header #dropdownMenuLink .dropdowna {
+    padding: 0px;
+} */
+
+header #dropdownMenuLink:before {
+    content: '';
+    position: absolute;
+    top: 53%;
+    left: 0;
+    width: 25px;
+    height: 34px;
+    margin-top: -8px;
+    background: url(../img/maps-and-flags.png);
+}
+
+header .city{
+    font-family: 'ProximaNovaSemibold';
+    font-size: 22px;
+    line-height: 0px;
+    margin-top: 38px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header  .dspan {
+    text-decoration: underline;
+    line-height: 0px;
+}
+
+header .col-md-4 {
+    line-height: 0;
+    padding:0px;
+}
+
+header .dropdown-menu {
+    line-height: 15px;
+}
+
+header .city span {
+    font-family: 'ProximaNovaSemibold';
+    text-transform: uppercase;
+}
+
+
+/*============ HORIZONTAL MENU ================*/
+
+nav {
+    background-color: #ffffff;
+    font-family: 'ProximaNovaBold';
+    font-size: 18px;
+    text-transform: uppercase;
+    /* margin-bottom:18px; */
+
+
+}
+
+nav a {
+    color: #000000;
+}
+
+nav .active{
+    color: #577fbc;
+    text-decoration: underline;
+}
+
+nav a:hover,
+    a:focus,
+    a:active {
+    color: #577fbc; 
+}
+
+
+
+#offer {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 1.1em;
+}
+
+#offer h3 {
+    color: #5d80b9;
+    font-family: 'ProximaNovaBold';
+    padding-top: 1.3em;
+}
+
+#offer img {
+    padding-top: 1.9em;
+    padding-bottom: 2.5em;
+}
+ 
+#offer .profit {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    line-height: 0.8em;
+}
+
+#offer .offer {
+    color: #000000;
+}
+
+/* #offer .justify-content-center {
+    margin-left: 7em;
+} */
+
+#take {
+    background-color: #e7e7e7;
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 1.1em;
+}
+
+#take h3 {
+    color: #5d80b9;
+    font-family: 'ProximaNovaBold';
+    padding-top: 1.3em;
+}
+
+#take h5{
+    font-family: 'ProximaNovaBold';
+}
+
+#take .take_buttons {
+    width: 272px;
+    height: 55px;
+    color: #ffffff;
+    background-color: #5d80b9;
+    border-radius: 300px 300px 300px 300px;
+    font-size: 1.5em;
+    padding-top: 7px;
+    margin-top: 20px;
+    margin-bottom: 53px;
+    /* margin-left: 1.5em; */
+}
+
+#take a {
+    color: #ffffff;
+}
+
+#notice {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 1.1em;
+}
+
+#notice h3 {
+    color: #5d80b9;
+    font-family: 'ProximaNovaBold';
+    padding-top: 1.3em;
+}
+
+#notice a {
+    color:#000000;
+    text-decoration: none;
+} 
+
+#notice .active {
+    color: #0000ff;
+}
+
+/* #notice a:visited {
+    color: #000000;
+} */
+
+/* #notice a:active {
+    color: red;
+} */
+
+#notice .card-body {
+    background-color: #e6e6e6;
+}
+
+#restoration {
+    background-color: #e7e7e7;
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 1.1em;
+}
+
+#restoration h3 {
+    color: #5d80b9;
+    font-family: 'ProximaNovaBold';
+    padding-top: 1.3em;
+    padding-bottom: 23px;
+}
+
+#restoration i {
+    padding-top: 2em;
+    /* padding-left: 1.5em; */
+}
+#restoration h5 {
+    font-size: 1em;
+    padding-top: 20px;
+}
+
+#restoration img:first-child {
+    /* margin-left: 2.2em; */
+}
+
+#new {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 1.1em;
+}
+
+#new h3 {
+    color: #5d80b9;
+    font-family: 'ProximaNovaBold';
+    padding-top: 1.3em;
+}
+
+#new .card {
+    border: none;
+}
+
+#benefit {
+    background-color: #e7e7e7;
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 1.1em;
+}
+
+#benefit h3 {
+    color: #5d80b9;
+    font-family: 'ProximaNovaBold';
+    padding-top: 1.3em;
+}
+
+#benefit .card {
+    border: none;
+    background-color: #e7e7e7;
+}
+
+#benefit ul li{
+    color:#6b82b2;
+    font-size: 1.5em;
+    /* list-style: color: #000 ; */
+}
+
+#benefit ul li span {
+    color: #3e3d3d;
+    font-size: 0.650em;
+}
+
+#benefit .active {
+    color: #0000ff;
+}
+
+#benefit a {
+    color: #3e3d3d;
+    text-decoration: none;
+}
+
+#professional {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'ProximaNovaRegular';
+    font-size: 1.1em;
+}
+
+#professional h3 {
+    color: #5d80b9;
+    font-family: 'ProximaNovaBold';
+    padding-top: 1.3em;
+}
+
+#professional .professional_buttons {
+    width: 272px;
+    height: 55px;
+    color: #ffffff;
+    background-color: #5d80b9;
+    border-radius: 300px 300px 300px 300px;
+    font-size: 1.5em;
+    padding-top: 7px;
+    margin-top: 20px;
+    margin-bottom: 53px;
+    margin-left: 50px;
+}
+
+#professional .professional_buttons a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* # */
+footer {
+    background-color: #4c4b4b;
+    color: #a8a8a8;
+    font-family: 'ProximaNovaBold';
+    font-size: 1.3 em;
+}
+
+footer a {
+    color: #a8a8a8;
+    font-family: 'ProximaNovaBold';
+    font-size: 1.3 em;
+}
+
+footer p {
+    font-size: 1.5em;
+}
+
+footer span {
+    /* font-size: 1.5em; */
+    text-transform: uppercase;
+}
+
+footer .social_buttons {
+
+}
+
+footer .odnoklassniki {
+    background: #f68634;
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;
+    color: white;
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 4px;
+}
+
+footer .facebook {
+    background: #3b5998;
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;
+    color: white;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+footer .vk {
+    background: #4d76a1;
+    border-radius: 50%;
+    border: none;
+    height: 32px;
+    width: 32px;
+    color: white;
+    display: inline-block;
+}
+
+footer .social_buttons i{
+    padding-top: 8px;
+}
+
+footer .col-md-1 {
+    padding: 0px;
+}
+
+footer .phone_number {
+    font-family: 'ProximaNovaBold';
+    font-size: 30px;
+    color: #ababab;
+}
+
+footer .phone_number a {
+    color: #ababab;
+    text-decoration: none;
+    /* line-height: 0px; */
+    /* padding: 0px; */
+    position: relative;
+    display: inline-block;
+}
+
+footer .phone_number a:before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    width: 34px;
+    height: 34px;
+    margin-top: -8px;
+    background: url(../img/phone.png);
+}
+
+footer  .marker {
+    font-family: 'ProximaNovaSemibold';
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+}
+
+footer .marker a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+footer .marker a:before {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: -40%;
+    width: 25px;
+    height: 34px;
+    margin-top: -8px;
+    background: url(../img/maps-and-flags.png);
+}
+/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ПОДВАЛ    ===========*/
+
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+
+/*============    	АДАПТИВ    ===========*/
+
+/*================= NOTICE SECTION ==========*/
+
+.arrow-down {
+    transform: rotate(-180deg);
+    /* -webkit-transition: all .75s ease-out;
+    -moz-transition: all .75s ease-out;
+    -o-transition: all .75s ease-out;
+    transition: all .75s ease-out; */
+}
+
+#notice .link-text  {
+    overflow: hidden;
+}
+
+#notice picture {
+    margin-right: 0.5rem;
+    float: left;
+    margin-top: 0.9rem;
+}
+
+/*=============== BENEFIT SECTION =============*/
+
+#benefit .link-text {
+    overflow: hidden;
+}
+
+#benefit picture {
+    margin-right: 0.5rem;
+    float: left;
+    margin-top: 0.9rem;
+}
+
+
+
+@media(min-width:0px) and (max-width:320px) {
+	
+}
+
+@media(min-width:321px) and (max-width:480px) {
+    header div {
+        text-align: center !important;
+    }
+
+    #offer .justify-content-center {
+        text-align: center;
+    }
+
+    /* #take img {
+        text-align: center;
+    } */
+
+    /* #take .take_buttons {
+        margin-left: 2.3rem;
+    } */
+    footer div {
+        text-align:center;
+    }
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	header div {
+        text-align: center !important;
+    }
+
+    #offer .justify-content-center {
+        text-align: center;
+    }
+
+    /* #take .take_buttons {
+        margin-left: 3rem;
+
+    } */
+
+    #take .take_buttons {
+        width: 200px;
+        height: 30px;
+        border-radius: 200px 200px 200px 200px;
+        font-size: 1em;
+        margin-left: 0.5em;
+        padding-top: 2px;
+        
+    }
+
+    #professional .professional_buttons {
+        width: 200px;
+        height: 30px;
+        border-radius: 200px 200px 200px 200px;
+        font-size: 0.9em;
+        padding-top: 3px;  
+    }
+
+    footer div {
+        text-align:center;
+    }
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	header img {
+        margin-right: 200px;
+    }
+
+    #take .take_buttons {
+        width: 200px;
+        height: 30px;
+        border-radius: 200px 200px 200px 200px;
+        font-size: 1em;
+        margin-left: 0.5em;
+        padding-top: 2px;
+        
+    }
+
+    #professional .professional_buttons {
+        width: 200px;
+        height: 30px;
+        border-radius: 200px 200px 200px 200px;
+        font-size: 0.9em;
+        padding-top: 3px;  
+    }
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	#take .take_buttons {
+        margin-left: 0.5em;
+    }
+
+    #professional .professional_buttons {
+        width: 200px;
+        height: 30px;
+        border-radius: 200px 200px 200px 200px;
+        font-size: 1.1em;
+        padding-top: 2px;  
+    }
+}
